@@ -1,19 +1,18 @@
 #include "FurnaceBlock.h"
 #include <string>
 #include <SFML/Graphics.hpp>
-using namespace std;
-
+using namespace sf;
 
 
 string intn;
 string dispn;
-sf::Sprite sp;
+sf::Sprite spr;
 
 FurnaceBlock::FurnaceBlock(string displayName, string internalName, sf::Sprite sprite)
 {
 	intn = internalName;
 	dispn = displayName;
-	sp = sprite;
+	spr = sprite;
 }
 
 string FurnaceBlock::getInternal() {
@@ -25,5 +24,5 @@ string FurnaceBlock::getDisplay() {
 }
 
 sf::Sprite FurnaceBlock::getSprite() {
-	return sp;
+	return spr;
 }
