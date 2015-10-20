@@ -1,7 +1,7 @@
 ## Reality (C++ Rewrite by Kitten)
 ===
 This is a rewrite for Reality using C++ and SFML.
-Feel free to comment, but test it.
+Feel free to commit, but test it.  
 _**MAKE SURE YOU USE VISUAL STUDIO 2015!**_
 
 http://sfml-dev.org
