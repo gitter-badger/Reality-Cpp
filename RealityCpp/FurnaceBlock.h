@@ -6,10 +6,10 @@ using namespace std;
 class FurnaceBlock
 {
 public:
-	FurnaceBlock::FurnaceBlock(string displayName, string internalName, sf::Sprite sprite);
-	string FurnaceBlock::getInternal();
-	string FurnaceBlock::getDisplay();
-	sf::Sprite FurnaceBlock::getSprite();
+	FurnaceBlock(string displayName, string internalName, sf::Sprite sprite);
+	string getInternal();
+	string getDisplay();
+	sf::Sprite getSprite();
 private:
 	string intn;
 	string dispn;

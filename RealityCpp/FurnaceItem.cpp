@@ -3,12 +3,6 @@
 #include <SFML/Graphics.hpp>
 
 
-
-
-string intn;
-string dispn;
-sf::Sprite sp;
-
 FurnaceItem::FurnaceItem(string displayName, string internalName, sf::Sprite sprite)
 {
 	intn = internalName;

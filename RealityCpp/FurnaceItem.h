@@ -7,9 +7,9 @@ class FurnaceItem
 {
 public:
 	FurnaceItem(string displayName, string internalName, sf::Sprite sprite);
-	string FurnaceItem::getInternal();
-	string FurnaceItem::getDisplay();
-	sf::Sprite FurnaceItem::getSprite();
+	string getInternal();
+	string getDisplay();
+	sf::Sprite getSprite();
 private:
 	string intn;
 	string dispn;

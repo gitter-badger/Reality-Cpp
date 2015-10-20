@@ -4,10 +4,6 @@
 using namespace sf;
 
 
-string intn;
-string dispn;
-sf::Sprite spr;
-
 FurnaceBlock::FurnaceBlock(string displayName, string internalName, sf::Sprite sprite)
 {
 	intn = internalName;
