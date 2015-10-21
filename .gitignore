@@ -273,3 +273,6 @@ _Pvt_Extensions
 
 # FAKE - F# Make
 .fake/
+
+# SFML files, so they won't be uploaded
+[Ss]fml/
