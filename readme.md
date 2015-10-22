@@ -15,10 +15,11 @@ Put that new 'sfml' folder into the same folder 'RealityCpp.sln' is in.
 Double click 'RealityCpp.sln' and VS 2015 should load.  
 Success!  
 #### CMake(Linux?)  
-Put the 'sfml' folder in Reality-cpp/extlib
-Idk what next, lol. Someone do a pull request, please.
+Put the 'sfml' folder in Reality-cpp/extlib  
+Idk what next, lol. Someone do a pull request, please.  
 
-
+#### Post-compile(Both)  
+Put the .png files from the Release folder in the same directory as the the executable.
 
 Also, do not upload the the sfml folder in a pull request, even though the .gitignore should automatically ignore it.
 

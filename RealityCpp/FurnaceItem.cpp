@@ -3,7 +3,7 @@
 #include <SFML/Graphics.hpp>
 
 
-FurnaceItem::FurnaceItem(string displayName, string internalName, sf::Sprite sprite)
+FurnaceItem::FurnaceItem(string displayName, string internalName, sf::Texture sprite)
 {
 	intn = internalName;
 	dispn = displayName;
@@ -19,6 +19,6 @@ string FurnaceItem::getDisplay() {
 }
 
 
-sf::Sprite FurnaceItem::getSprite() {
+sf::Texture FurnaceItem::getSprite() {
 	return sp;
 }

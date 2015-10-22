@@ -6,13 +6,13 @@ using namespace sf;
 class FurnaceItem
 {
 public:
-	FurnaceItem(string displayName, string internalName, sf::Sprite sprite);
+	FurnaceItem(string displayName, string internalName, sf::Texture sprite);
 	string getInternal();
 	string getDisplay();
-	sf::Sprite getSprite();
+	sf::Texture getSprite();
 private:
 	string intn;
 	string dispn;
-	sf::Sprite sp;
+	sf::Texture sp;
 };
 

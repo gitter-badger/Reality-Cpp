@@ -6,14 +6,14 @@ using namespace std;
 class FurnaceBlock
 {
 public:
-	FurnaceBlock(string displayName, string internalName, sf::Sprite sprite);
+	FurnaceBlock(string displayName, string internalName, sf::Texture sprite);
 	string getInternal();
 	string getDisplay();
-	sf::Sprite getSprite();
+	sf::Texture getSprite();
 private:
 	string intn;
 	string dispn;
 	string aph;
-	sf::Sprite spr;
+	sf::Texture spr;
 };
 

@@ -4,7 +4,7 @@
 using namespace sf;
 
 
-FurnaceBlock::FurnaceBlock(string displayName, string internalName, sf::Sprite sprite)
+FurnaceBlock::FurnaceBlock(string displayName, string internalName, sf::Texture sprite)
 {
 	intn = internalName;
 	dispn = displayName;
@@ -19,6 +19,6 @@ string FurnaceBlock::getDisplay() {
 	return dispn;
 }
 
-sf::Sprite FurnaceBlock::getSprite() {
+sf::Texture FurnaceBlock::getSprite() {
 	return spr;
 }
