@@ -1,4 +1,6 @@
 ## Reality (C++ Rewrite by Kitten)
+
+[![Join the chat at https://gitter.im/FlareHAX0R/Reality-Cpp](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/FlareHAX0R/Reality-Cpp?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 This is a rewrite for Reality using C++ and SFML(which uses OpenGL in contrast to DirectX).
 Feel free to commit, but test it.  
 
